@@ -37,7 +37,7 @@ public class CarroTeste {
 		
 		System.out.println(c1.motor.giros());
 		
-		//Relação biderecional! - 1 motor tem 1 carro, 1 carro tem 1 motor!
+		//Relação biderecional! - 1 motor tem 1 carro, 1 carro conhece 1 motor!
 		System.out.println(c1.motor.carro.motor.carro.motor.carro.motor.giros());
 		
 	}
